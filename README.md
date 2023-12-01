@@ -1,7 +1,7 @@
 # RM1-Donation
 This is an individual Assignment for INFO2302_03
 
-The javascript interaction for this individual assignment is the dropdown menu and all the navigation bar is in the menu logo once the screen become small
+The javascript interaction for this individual assignment is the dropdown menu and all the navigation bar is in the menu logo once the screen become small. The javascript is above RM1.html code
 
 Link to the reference:
 1. https://youtu.be/GdrbE-s5DgQ?si=5xolhnNOR3kp-zq8
