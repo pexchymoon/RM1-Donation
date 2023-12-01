@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open sans', sans-serif;
+}
+
+
+body{
+    background-color: rgb(236, 238, 255);
+}
+
+.container{
+    padding: 2%;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 55%;
+    margin-bottom: 10%;
+    background-color: white;
+    /*border-radius: 12px;*/
+}
+h1{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 15%;
+}
+
+.poster{
+    float: right;
+    padding-right: 5%;
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end
+}
+
+/*Bold for Type of Donation and further notice*/
+.container p:first-child{
+    font-size: 18px;
+    font-weight: 600;
+    color: brown;
+    margin-top: 5%;
+}
+
+/*Normal Kuliyyah Based box*/
+.type{
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 4%;
+    background-color: rgb(236, 238, 255);
+    border-radius: 10px;
+}
+
+/*White border for Nomal Kuliyyah Based*/
+.type span:first-child{
+    padding: 4%;
+    padding-left: 30%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/*Kuliyyah Based in two line as well as the pointer*/
+.type span{
+    padding-left: 25%;
+    cursor: pointer;
+}
+
+/*p:nth-child(6){
+    margin-top: 5%;
+    font-size: 16px;
+    font-weight: 600;
+}*/
+
+.value{
+    width: 100%;
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.money{
+    border: 2px solid rgb(236, 238, 255);
+    border-radius: 7px;
+    font-weight: 600;
+    padding-left: 30%;
+    cursor: pointer;
+}
+
+.money:hover{
+    background-color: black;
+    color: white;
+}
+
+.confirm{
+    margin-top: 5%;
+}
+
+/*space between Normal box and Name*/
+.input{
+    margin-top: 5%;
+}
+
+input[type="text"]{
+    margin-top: 2%;
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 15px;
+
+    border-radius: 5px;
+}
+
+button{
+    width: 100%;
+    height: 30px;
+    margin-top: 5%;
+    font-weight: 600;
+    color: white;
+    background-color: brown;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(179, 81, 81);
+}
+
+p:nth-child(9){
+    margin-top: 10%;
+}
+
+.blue{
+    color: blue;
+    text-decoration: underline;
+}
+
